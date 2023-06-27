@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/survey", methods=["GET"])
+@app.route("/survey")
 def survey():
     return render_template("survey.html")
 
