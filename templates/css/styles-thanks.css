@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.navbar-header {
+  font-family: 'Pacifico';
+}
+
+.title-header, .menu-header, .about-header {
+  font-family: 'Alex Brush';
+}
+
+#main-card {
+  margin: auto;
+}
+
+.navbar-header:hover {
+  text-shadow: 0 0 3px white;
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CoffeeCloud Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles-index.css">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="#home" class="navbar-brand text-light"><span class="navbar-header">CoffeeCloud Cafe</span></a>
+        <button class="navbar-toggler btn-outline-dark border-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end align-center" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="lead fw-normal nav-link text-end" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="lead fw-normal nav-link text-end" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="lead fw-normal nav-link text-end" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="lead fw-normal nav-link text-end" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--home -->
+    <section id="home">
+      <!-- carousel -->
+      <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid" id="home-1">
+              <div class="row justify-content-center text-center">
+                <div class="col-6 py-5">
+                  <h1 class="display-3 text-center fw-bold py-5 text-light title-header">CoffeeCloud Cafe</h1>
+                  <h1 style="font-family: Cambria" class="display-4 text-center text-light">
+                    Have a sip of coffee from the clouds
+                  </h1>
+                  <a href="#menu" class="btn btn-lg btn-outline-light my-5">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid" id="home-2">
+              <div class="row justify-content-center text-center">
+                <div class="col-6 py-5">
+                  <h1 class="display-3 text-center text-light fw-bold py-5 title-header">From Love</h1>
+                  <h1 style="font-family: Cambria" class="display-4 text-center text-light">
+                    Made only from the finest coffee beans
+                  </h1>
+                  <a href="#menu" class="btn btn-lg btn-outline-light my-5">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid" id="home-3">
+              <div class="row justify-content-center text-center">
+                <div class="col-6 py-5">
+                  <h1 class="display-3 text-center text-light fw-bold py-5 title-header">With Love</h1>
+                  <h1 style="font-family: Cambria" class="display-4 text-center text-light">
+                    Carefully prepared by experts for your taste
+                  </h1>
+                  <a href="#menu" class="btn btn-lg btn-outline-light my-5">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      
+    </section>
+
+    <!-- menu -->
+    <section id="menu">
+      <div class="container-lg py-5">
+        <h1 class="display-1 text-dark fw-bold text-center menu-header">Menu</h1>
+        <div class="row justify-content-around">
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/brewed-coffee.jpg" alt="brewed-coffee">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Brewed Coffee</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱100</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/espresso.jpg" alt="espresso">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Espresso</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱120</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/cafe-americano.jpg" alt="cafe-americano">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Cafe Americano</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱120</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/cafe-latte.jpg" alt="cafe-latte">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Cafe Latte</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱120</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/cappuccino.jpg" alt="cappuccino">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Cappuccino</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱140</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/caramel-macchiato.jpg" alt="caramel-macchiato">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Caramel Macchiato</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱140</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/french-vanilla.jpg" alt="french-vanilla">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">French Vanilla</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱140</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/cold-brew.jpg" alt="cold-brew">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Cold Brew</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱110</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/cheesecake.jpg" alt="cheesecake">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Cheesecake</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱160</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/chocolate-cookie.jpg" alt="chocolate-cookie">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Chocolate Cookie</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱100</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/cinnamon-roll.jpg" alt="cinnamon-roll">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Cinnamon Roll</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱120</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
+            <div class="card border-2 border-dark">
+              <img class="card-img-top" src="images/strawberry-donut.jpg" alt="strawberry-donut">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title text-center">Strawberry Donut</h4>
+                <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="display-6 fw-bold card-text text-center text-lg-end">₱140</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--about us -->
+    <section id="about-us">
+      <div class="container-lg">
+        <h1 class="display-3 text-dark fw-normal text-center about-header pt-5 pb-3">About Us</h1>
+        <p class="lead text-center px-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus voluptas quis eius nesciunt quos? 
+          Modi quis doloremque consequuntur architecto ex error mollitia tenetur ullam quos odit omnis, at placeat 
+          explicabo neque natus odio alias ea. Voluptates aut doloribus blanditiis.
+        </p>
+      </div>
+      <div class="container-fluid mt-5">
+        <div class="row justify-content-around">
+          <div class="col-lg-5 col-12 py-3 d-flex flex-column justify-content-center">
+            <h1 class="display-3 fw-normal text-center text-dark about-header py-3">Our Vision</h1>
+            <p class="lead text-dark text-center px-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Beatae cupiditate quae omnis distinctio pariatur quo animi et voluptate reprehenderit odit!
+            </p>
+          </div>
+          <div class="col-5 py-5 d-none d-lg-block">
+            <img src="images/coffee.jpg" alt="coffee" class="rounded" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="contact-us">
+      <div class="container-xl w-75" style="max-width: 500px;">
+        <h1 class="display-3 text-dark fw-normal text-center py-3 contact-header">Contact Us</h1>
+        <form action="" method="get">
+          <div class="form-floating mb-3">
+            <input autocomplete="no" type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+            <label for="name" class="form-label">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input autocomplete="no" type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            <label for="email" class="form-label">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input autocomplete="no" type="text" class="form-control" id="address" placeholder="Enter Address" name="address">
+            <label for="address" class="form-label">Address</label>
+          </div>
+          <div class="w-100 text-center pb-5"><button type="submit" class="btn btn-primary lead">Submit</button></div>
+        </form>
+        <p class="lead text-center m-0 pb-3">
+          Please help us improve our services by answering our <a class="survey" href="/survey.html">survey.</a>
+        </p>
+      </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
