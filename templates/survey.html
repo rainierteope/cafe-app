@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block stylesheet %}
-    <link rel="stylesheet" href="{{ url_for('static', filename=css/styles-survey.css }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles-survey.css') }}">
 {% endblock %}
 
 {% block body %}
@@ -9,7 +9,7 @@
       Customer Satisfaction Form
     </header>
     <main class="container-fluid">
-      <form action="/thanks.html" method="post">
+      <form action="/thanks" method="post">
         <div class="row">
           <div class="col-md-6 col-xl-4 px-4 d-flex flex-column justify-content-around">
             <div class="mt-1">  

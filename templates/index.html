@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block stylesheet %}
-    <link rel="stylesheet" href="{{ url_for('static', filename=css/styles-index.css)}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles-index.css') }}">
 {% endblock %}
 
 {% block body %}
@@ -105,7 +105,7 @@
     <div class="row justify-content-around">
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/brewed-coffee.jpg }}" alt="brewed-coffee">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/brewed-coffee.jpg') }}" alt="brewed-coffee">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Brewed Coffee</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -115,7 +115,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/espresso.jpg }}" alt="espresso">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/espresso.jpg') }}" alt="espresso">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Espresso</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -125,7 +125,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/cafe-americano.jpg }}" alt="cafe-americano">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/cafe-americano.jpg') }}" alt="cafe-americano">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Cafe Americano</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -135,7 +135,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/cafe-latte.jpg }}" alt="cafe-latte">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/cafe-latte.jpg') }}" alt="cafe-latte">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Cafe Latte</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -145,7 +145,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/cappuccino.jpg }}" alt="cappuccino">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/cappuccino.jpg') }}" alt="cappuccino">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Cappuccino</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -155,7 +155,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/caramel-macchiato.jpg }}" alt="caramel-macchiato">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/caramel-macchiato.jpg') }}" alt="caramel-macchiato">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Caramel Macchiato</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -165,7 +165,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/french-vanilla.jpg }}" alt="french-vanilla">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/french-vanilla.jpg') }}" alt="french-vanilla">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">French Vanilla</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -175,7 +175,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/cold-brew.jpg }}" alt="cold-brew">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/cold-brew.jpg') }}" alt="cold-brew">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Cold Brew</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -185,7 +185,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/cheesecake.jpg }}" alt="cheesecake">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/cheesecake.jpg') }}" alt="cheesecake">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Cheesecake</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -195,7 +195,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/chocolate-cookie.jpg }}" alt="chocolate-cookie">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/chocolate-cookie.jpg') }}" alt="chocolate-cookie">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Chocolate Cookie</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -205,7 +205,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/cinnamon-roll.jpg }}" alt="cinnamon-roll">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/cinnamon-roll.jpg') }}" alt="cinnamon-roll">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Cinnamon Roll</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -215,7 +215,7 @@
       </div>
       <div class="col-5 col-md-4 col-xl-3 my-3 d-flex align-items-stretch">
         <div class="card border-2 border-dark">
-          <img class="card-img-top" src="{{ url_for('static', filename=images/strawberry-donut.jpg }}" alt="strawberry-donut">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/strawberry-donut.jpg') }}" alt="strawberry-donut">
           <div class="card-body d-flex flex-column justify-content-between">
             <h4 class="card-title text-center">Strawberry Donut</h4>
             <p class="card-text text-center d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -247,7 +247,7 @@
         </p>
       </div>
       <div class="col-5 py-5 d-none d-lg-block">
-        <img src="images/coffee.jpg" alt="coffee" class="rounded" style="width: 100%;">
+        <img src="{{ url_for('static', filename='images/coffee.jpg') }}" alt="coffee" class="rounded" style="width: 100%;">
       </div>
     </div>
   </div>
@@ -257,7 +257,7 @@
 <section id="contact-us">
   <div class="container-xl w-75" style="max-width: 500px;">
     <h1 class="display-3 text-dark fw-normal text-center py-3 contact-header">Contact Us</h1>
-    <form action="" method="get">
+    <form action="/thanks" method="get">
       <div class="form-floating mb-3">
         <input autocomplete="no" type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
         <label for="name" class="form-label">Name</label>
@@ -273,10 +273,10 @@
       <div class="w-100 text-center pb-5"><button type="submit" class="btn btn-primary lead">Submit</button></div>
     </form>
     <p class="lead text-center m-0 pb-3">
-      Please help us improve our services by answering our <a class="survey" href="/survey.html">survey.</a>
+      Please help us improve our services by answering our <a class="survey" href="/survey">survey.</a>
     </p>
   </div>
 </section>
 
 
-{%% endblock %}
+{% endblock %}
