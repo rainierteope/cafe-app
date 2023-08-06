@@ -9,6 +9,8 @@ RUN pip install flask
 
 # Bundle app source
 COPY . .
+COPY templates templates
+COPY static static
 
 # Expose port 5000
 EXPOSE 5000
